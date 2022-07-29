@@ -1,0 +1,151 @@
+body{
+    font-family: "Montserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1 { 
+     font-family: "Montserrat-black";  
+     font-size: 3rem;  
+     line-height: 1.5;  
+     font-weight: 900;
+}
+.container-fluid{
+    padding: 3% 20% 0% 15%;
+}
+
+
+.navbar-brand{
+    font-family: "ubantu";
+    font-size: 350%;
+    font-weight: bold;
+}
+.navbar{
+    padding-bottom: 50px;
+    padding-left: 0px;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    font-weight:500;
+}
+
+.download-button{
+    margin-top: 50px;
+}
+
+#features{
+    margin: 7% 15%;
+    background-color: #fff;
+    position: relative;
+ 
+}
+.title-image{
+    width: 60%;
+    height: auto;
+    -ms-transform: rotate(25deg); /* IE 9 */
+    transform: rotate(25deg);
+    margin-bottom: 20px;
+    position: relative;
+}
+@media (max-width:1000px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.col-md-4{
+    text-align: center;
+    padding: 5%;
+}
+
+h3{
+    font-family: "Montserrat-Bolder";
+}
+p{
+    color: grey;
+}
+.icon{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: pink;
+    transform: scale(1.5);
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+h2{
+    font-family: "Montserrat-Bolder";
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.press-logo{
+    width: 15%;
+    margin:0px 15px 0px 15px;
+}
+.carousel-item{
+    padding: 7% 15%;        
+}
+
+/* pricing */
+#pricing{
+    padding: 50px;
+}
+.pricing-title{
+    text-align: center;
+    font-family: "Montserrat-Bolder";
+}
+.pricing_tag{
+    padding: 5% 15%;
+}
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Montserrat-Bolder";
+    padding: 5% 5%;
+    color: white;
+}
+.headline_cta{
+    font-size: 50px;
+    text-align: center;
+    margin: 1% 20%;
+}
+.download-button{
+    margin: 2%;
+}
+
+#footer{
+    text-align: center;
+    margin: 5% ;
+    padding: 1%;
+}
+
+.social-icon{
+    margin-left: 1%;
+}
+.copyright{
+    color: black;
+}
